@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Kosugi+Maru&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  font-family: "Kosugi Maru", sans-serif;
+}
+header {
+  font-size: 0.6rem;
+  width: 100%;
+  background-color: #444;
+  color: #fff;
+  padding: 0.5rem;
+}
+header .container {
+  display: flex;
+}
+header h1 {
+  font-size: 1.2rem;
+  margin: 0 0.32rem;
+  padding: 0.75rem;
+}
+header .nav {
+  /* width: 50%; */
+  padding: 1rem 1.2rem;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 0.5rem;
+}
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+header ul li a:hover {
+  border-bottom: dotted 1px #fff;
+}
+main {
+  text-align: center;
+}
+
+.research.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.research > h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 0.64rem 0;
+}
+
+.research p {
+  font-size: 1rem;
+  padding: 1rem 11rem;
+  padding-bottom: 5rem;
+}
+.research img {
+  width: 40%;
+}
+.activity {
+  background-color: #f2f2f3;
+}
+.activity.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.activity > h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 0.64rem 0;
+  padding-top: 5rem;
+}
+.activity p {
+  font-size: 1rem;
+  padding: 1rem 11rem;
+  padding-bottom: 3rem;
+}
+.activity img {
+  width: 50%;
+  border-radius: 15px;
+}
+.activity .pic p {
+  padding-bottom: 5rem;
+}
+.project.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.project > h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 0.64rem 0;
+  padding-top: 5rem;
+}
+.project .info p {
+  font-size: 1rem;
+  padding: 1rem 12rem;
+  padding-bottom: 5rem;
+}
+.project .icon {
+  border-radius: 15px;
+}
+.members {
+  background-color: #f2f2f3;
+}
+.members.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.members > h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 0.64rem 0;
+  padding-top: 5rem;
+}
+.members > h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 0.64rem 0;
+  padding-top: 5rem;
+}
+.members ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.members img {
+  border-radius: 50%;
+  width: 160px;
+}
+.members h2 {
+  font-size: 20px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+.members a {
+  text-decoration: none;
+}
+.members ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+.members li {
+  width: 200px;
+  height: 200px;
+}
+footer {
+  font-size: 1rem;
+  padding: 32px 0;
+  background: #323135;
+  color: #98969c;
+  text-align: center;
+}

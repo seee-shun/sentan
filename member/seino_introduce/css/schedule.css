@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+JP");
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 100px;
+  font-family: "Noto Serif JP", sans-serif;
+}
+body {
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(51, 0, 255, 0.44),
+    rgba(255, 72, 0, 0.51)
+  );
+
+  background-image: -webkit-linear-gradient(
+    135deg,
+    rgba(51, 0, 255, 0.44),
+    rgba(255, 72, 0, 0.51)
+  );
+
+  background-image: linear-gradient(
+    135deg,
+    rgba(51, 0, 255, 0.44),
+    rgba(255, 72, 0, 0.51)
+  );
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 2.5remx;
+  box-sizing: border-box;
+}
+header {
+  height: 1.25rem;
+}
+svg {
+  height: 1rem;
+  width: 3rem;
+}
+small {
+  font-size: 0.1rem;
+}
+footer {
+  margin-top: 1rem;
+  background-color: rgb(49, 53, 53);
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

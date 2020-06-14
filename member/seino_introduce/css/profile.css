@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+JP");
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 100px;
+  font-family: "Noto Serif JP", sans-serif;
+}
+body {
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(51, 0, 255, 0.44),
+    rgba(255, 72, 0, 0.51)
+  );
+
+  background-image: -webkit-linear-gradient(
+    135deg,
+    rgba(51, 0, 255, 0.44),
+    rgba(255, 72, 0, 0.51)
+  );
+
+  background-image: linear-gradient(
+    135deg,
+    rgba(51, 0, 255, 0.44),
+    rgba(255, 72, 0, 0.51)
+  );
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 2.5rem;
+  box-sizing: border-box;
+}
+header {
+  height: 1.25rem;
+}
+svg {
+  height: 1rem;
+  width: 3rem;
+}
+p {
+  margin: 0.25rem 0.3rem 0.4rem 0.3rem;
+}
+img {
+  width: 100%;
+  height: 3.5rem;
+  vertical-align: bottom;
+}
+h1 {
+  font-size: 0.3rem;
+}
+
+li {
+  font-size: 0.2rem;
+  list-style: none;
+}
+p {
+  font-size: 0.16rem;
+}
+small {
+  font-size: 0.1rem;
+}
+
+section + section {
+  margin-left: 10rem;
+}
+footer {
+  margin-top: 1rem;
+  background-color: rgb(49, 53, 53);
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.genre {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+.card {
+  flex: 1;
+  margin: 0.2rem 0.2rem auto 0.2rem;
+  width: 350px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+.card:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.24);
+  transform: translate(0, -10px);
+  background-color: #f8e8bb;
+}
+.card-img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: 3rem;
+}
+.card-content {
+  padding: 20px;
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+.postauth {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.postauth:nth-of-type(2) {
+  margin-left: 0.2rem;
+}
+
+.postauth.twitter a {
+  height: 0;
+  color: #74c1f8;
+  display: inline-block;
+  text-decoration: none;
+}
+.postauth.twitter a:hover {
+  color: #ffffff;
+}
+
+.postauth.instagram a {
+  height: 0;
+  color: #f874d1;
+  display: inline-block;
+  text-decoration: none;
+}
+.postauth.instagram a:hover {
+  color: #ffffff;
+}
+.vcard.twitter {
+  border: solid 2px #74c1f8;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background: #fff;
+  font-size: 17px;
+}
+.vcard.twitter:hover {
+  background: #74c1f8;
+}
+.vcard.instagram {
+  border: solid 2px #f874c6;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background: #fff;
+  font-size: 17px;
+}
+.vcard.instagram:hover {
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-twitter:before {
+  content: "\f099";
+}
+.sns {
+  display: flex;
+  justify-content: center;
+  margin: -0.5rem;
+}

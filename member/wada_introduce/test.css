@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    color: skyblue;
+}
+
+header {
+    color: white;
+    padding: 30px;
+    /* border-radius: 20px; */
+    background: url(pics/munyowaru.jpg) center / cover;
+    text-emphasis: none;
+
+}
+
+
+ul{
+    margin: 0;
+    /* background-color: blue; */
+}
+
+header h1{
+    size: 50px;
+    margin: 10px;
+}
+
+section>section{
+
+}
+
+section .profile h1{
+    position: relative;
+    
+    margin: 0;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-width: 3px;
+    border-style: dotted;
+    border: orange;
+
+}
+
+.profile .profile-names h2{
+    margin: 0;
+}
+
+.profile .profile-names h3{
+    margin: 0;
+}
+
+.profile-names{
+    margin: auto;
+    margin-left: 20px;
+    text-align: left;
+}
+
+section .photo1 img{
+
+    /* text-align: center; */
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: orange;
+}
+.photo1{
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+    text-align: left;
+    margin-left: 32px;
+    margin-right: 30px;
+}
+
+section>section .photo1 img{
+    margin: auto;
+}
+
+
+section section{
+    display: flex;
+    margin: auto;
+}
+
+.profile{
+    background-color: beige;
+    /* border-radius: 20%; */
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.icons{
+    display: flex;
+}
+
+.icons p{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    
+    margin-left: 10px;
+}
+
+section section h1{
+    margin: auto;
+    margin-top: 40px;
+    padding-left: 20px;
+    font-size: x-large;
+    
+}
+
+footer {
+    text-align: center;
+    size: 40px;
+    background-color: gray;
+    margin: 0;
+    margin-bottom: 60px;
+    padding: 2%;
+}
+footer p{
+    margin: 0;
+}
+
+.works{
+    margin: 30px;
+    margin-bottom: 30px;
+}
+
+.works h1{
+    margin: auto;
+    border-width: 3px;
+    border-style: double;
+    padding: 3px;
+    border-color: orange;
+}
+
+section .works section img{
+
+        /* text-align: center; */
+        width: 100px;
+        height: auto;
+        /* border-radius: 50%; */
+        border-width: 4px;
+        border-style: solid;
+        border-color: orange;
+        margin: 3px;
+
+}
+
+.works section p{
+    margin: auto;
+    margin-left: 30px;
+}

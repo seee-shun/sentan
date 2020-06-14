@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="kozuka">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="illust/cat.png" type="image/x-icon">
+    <title>こづかのへや</title>
+</head>
+<body>
+    <ons-splitter>
+        <ons-splitter-side id="menu" side="left" width="300px" collapse swipeable>
+        <ons-page>
+        <ons-list>
+            <ons-list-header>卍供養卍</ons-list-header>
+            <ons-list-item onclick="fn.load('about.html')" tappable>
+                <a href = "http://www04.inf.in.shizuoka.ac.jp/~cs18031/">琵琶湖VS富士山</a>
+            </ons-list-item>
+            <ons-list-item onclick="fn.load('tab.html')" tappable>
+                <a href = "..\..\Documents\授業関連\1年後期\プログラム授業\豆\mameReadMe.html">豆まき鬼シューティング(の仕様書)</a>
+            </ons-list-item>
+            <ons-list-item onclick="fn.load('..\..\Documents\授業関連\1年後期\プログラム授業\豆\mameReadMe.html')" tappable>
+                <a href = "..\..\Documents\プログラム勉強\自主制作\Rounge\Rounge.html">Rounge</a>
+            </ons-list-item>
+            <ons-list-item onclick="fn.load('about.html')" tappable>
+                <a href = "..\..\Documents\授業関連\二年後期\webデザイン\webCLI\index.html">MusicTerminal</a>
+            </ons-list-item>
+        </ons-list>
+        </ons-page>
+        </ons-splitter-side>
+        <ons-splitter-content id="content" page="tab.html"></ons-splitter-content>
+    </ons-splitter>
+    
+    <ons-template id="tab.html">
+        <ons-page>
+        <ons-tabbar>
+            <ons-tab page="MetaData.html" label="MetaData" active>
+            </ons-tab>
+            <!-- <ons-tab page="Character.html" label="Character">
+            </ons-tab> -->
+            <ons-tab page="Hobbies.html" label="Hobbies">
+            </ons-tab>
+            <ons-tab page="Making.html" label="Making">
+            </ons-tab>
+        </ons-tabbar>
+        </ons-page>
+    </ons-template>
+    
+    <ons-template id="MetaData.html">
+        <ons-page>
+            <ons-toolbar>
+                <div class="left">
+                <ons-toolbar-button onclick="fn.open()">
+                    <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
+                </ons-toolbar-button>
+                </div>
+                <div class="center">
+                    <i class="fi-widget"></i>　こづかのへや　<i class="fi-widget"></i>
+                </div>
+            </ons-toolbar>
+            <div class="back">
+            <div class = "main">
+                <p>
+                    ここでは僕の基本情報について紹介します！
+                </p>
+            </div>
+            <div class = "sepalate">
+            <ons-card>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/3mTQWH3D6SM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <P>
+                    氏名：小塚　公介<br>
+                    学年：B3<br>
+                    誕生日：2000.1.8<br>
+                    性別：男<br>
+                    血液型：A型<br>
+                    大学：静岡大学<br>
+                    学部：情報学部<br>
+                    学科：情報科学科<br>
+                    出身：滋賀<br>
+                    好きな食べ物：和菓子、苺<br>
+                    嫌いな食べ物：トマト、辛い物、きのこの山<br>
+                    趣味：将棋、茶道、動画編集<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>ﾅﾆﾓﾅｲﾖ<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>ﾀﾞｶﾗﾅﾆﾓﾅｲｯﾃ<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>ｳｰﾝ…<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>ﾅｲﾃﾞｽ<br>
+                </P>
+            </ons-card>
+        </div>
+            </div>
+        </ons-page>
+    </ons-template>
+    
+    <!-- <ons-template id="Character.html">
+        <ons-page>
+            <ons-toolbar>
+                <div class="left">
+                <ons-toolbar-button onclick="fn.open()">
+                    <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
+                </ons-toolbar-button>
+            </div>
+            <div class="center">
+                <i class="fi-widget"></i>　こづかのへや　<i class="fi-widget"></i>
+            </div>
+        </ons-toolbar>
+        <div class="back">
+            <div class = main>
+                <p>
+                    ここではこづこづの特徴について紹介します！
+                </p>
+            </div>
+            <div class = "sepalate">
+                <ons-card>
+                    <h2 style = "font-weight: bold;">①よく考えたら書くようなことなくね？</h2>
+                    
+                </ons-card>
+            </div>
+        </div>
+        </ons-page>
+    </ons-template> -->
+
+    <ons-template id="Hobbies.html">
+        <ons-page>
+            <ons-toolbar>
+                <div class="left">
+                <ons-toolbar-button onclick="fn.open()">
+                    <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
+                </ons-toolbar-button>
+            </div>
+            <div class="center">
+                <i class="fi-widget"></i>　こづかのへや　<i class="fi-widget"></i>
+            </div>
+        </ons-toolbar>
+        <div class="back">
+            <div class = main>
+                <p>
+                    ここではこづこづの趣味について紹介します！
+                </p>
+            </div>
+            <div class = "sepalate">
+                <ons-card>
+                    <h2 style = "font-weight: bold;">将棋</h2>
+                    将棋は高校に入ってから始めました。<br>
+                    理由は親に運動部を禁止されたでしたが、その割にちゃんと頑張りました。<br>
+                    週二回しか部活は無かったのですが、勝手に朝練したり家でも(勉強サボって)将棋の本を読んだりしていました。<br>
+                    そのおかげ(いや滋賀の将棋部が弱いだけですが)で何回か上位成績取ったりしました。<br>
+                    具体的には4位を三回ほど。賞状はありません。<s>毎回三決で邪魔してきたあいつまじで許さねぇ</s><br>
+                    また、うちの高校が(滋賀では)強かったこともあり、予選全勝で団体戦全国大会にいきました。(そしてフルボッコにされました)<br>
+                    大学入ってからは周りが強すぎて全然勝てないし、負けたら散々煽られるし(勝っても煽られた)で正直将棋やめたいって思ったことの方が多いですよねー<br>
+                    <s>一刻も早く将棋なんてやめてやる。</s>
+                </ons-card>
+                <ons-card>
+                    <h2 style = "font-weight: bold;">茶道</h2>
+                    茶道を始めたのは大学なのですが、それまでにも茶道は少しだけ触っていました。<br>
+                    というのも、うちの家系、祖母と祖父と母と兄と叔父が茶道ガチ勢なんです。<s>嫌でも茶道始めるしかねぇ……</s><br>
+                    <S>ちなみに一回厄介なことになって本気で茶道が嫌いになったこともあったり</S><br>
+                    まぁなんだかんだで大学で茶道をはじめました(強制)<br>
+                    こんな始まりではあったものの、今は楽しくやってます。<br>
+                    ぶっちゃけ弊学茶道部の一番いいところは良い人ばっかってところですね。誰も煽ってこないし(先生にボッコボコに怒られるけど)<br>
+                    んでってやってると自分で上達とかも(多少は)感じられるので、楽しいです。<br>
+                    目下の課題は部活にいる時間が大幅に減って、下級生に抜かされそうってところかと
+                </ons-card>
+                <ons-card>
+                    <h2 style = "font-weight: bold;">動画編集</h2>
+                    動画編集は本当に最近(今年の4月くらい？)始めました。はじめたというかたまにふざけた<s>煽り</s>動画作ったり勉強したりしてるだけなので見せれるようなものが早々ないのですが……<br>
+                    このwebページ最初の動画は僕が作りました。<br>
+                    このくらい気楽に作ったりしてるから人に見せられるものがないっていう……<br>
+                    友達に動画作ってる人とかもいて見てて楽しいお<br>
+                </ons-card>
+            </div>
+        </div>
+        </ons-page>
+    </ons-template>
+
+    <ons-template id="Making.html">
+        <ons-page>
+            <ons-toolbar>
+                <div class="left">
+                <ons-toolbar-button onclick="fn.open()">
+                    <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
+                </ons-toolbar-button>
+            </div>
+            <div class="center">
+                <i class="fi-widget"></i>　こづかのへや　<i class="fi-widget"></i>
+            </div>
+        </ons-toolbar>
+        <div class="back">
+            <div class = main>
+                <p>
+                    ここでは僕の作ったものについて紹介します！(具体的には左スワイプ！)
+                </p>
+            </div>
+            <div class = main>
+                <h2>開発そのものについて</h2>
+                <p>
+                    私は大学に入るまでぱそこんを触ったことすら殆どありませんでした。<br>
+                    そんな僕が大学入ってから作ったものの中で、htmlを元に動いているものをこちらでは紹介します。<br>
+                    個人的には自分の製作物ではhtmlシリーズはガバも発見しているもののけっこう気に入ってたりします。
+                </p>
+            </div>
+            <div class="sepalate">
+                <ons-card>
+                    <h2 style = "font-weight: bold;">琵琶湖VS富士山</h2>
+                    これが私が初めてまともに製作したものになります。<br>
+                    コンピュータシステム演習で「なんかweb作れ」って言われて作ったやつです。<br>
+                    今にして思うとcssとか最悪だなって思うのですが、私はhtmlで何か作るとこれと比較してちょっと成長した気分になってます。<br>
+                    あと、見ていられるものではないと思ってはいるものの、琵琶湖と富士山を比較するって発想はまぁ悪くなかったかなって思ってはいます。
+                </ons-card>
+            </div>
+            <div class="sepalate">
+                <ons-card>
+                    <h2 style = "font-weight: bold;">豆まき鬼シューティング仕様書</h2>
+                    これは私が初めて真剣に(?)HTMLを触ろうと思って作ったものになります。<br>
+                    プログラミングの講義において、仕事割り振ったら意外と自分の分量が少なくなってしまい、怒られないように作ったものになります<br>
+                    琵琶湖富士山に比べてcssが圧倒的に良くなってるし、HTMLのタグとかも使えたなーって作品<br>
+                    また、これではちょっとだけJavaScriptを使ってみたりもしました(楽しかった)<br>
+                    <s>ちなみにグループワークにまともに参戦しなかった人を煽りまくった模様</s>
+                </ons-card>
+                <ons-card>
+                    <h2 style = "font-weight: bold;">ROUNGE</h2>
+                    僕が製作した中で一番気に入ってる&がんばったやつ。<br>
+                    テーマは「SNSの再現」<br>
+                    ある程度見た目にもこだわり、何よりアルゴリズムに苦戦した。<br>
+                    先輩方にお世話になりながらも、初めてvueを使いながらなんとか形にした。<br>
+                    課題はfirebaseとcss。
+                </ons-card>
+                <ons-card>
+                    <h2 style = "font-weight: bold;">MusicTerminal</h2>
+                    一言でいうと虚無の塊。<br>
+                    テーマは「音楽を紹介するwebページ」<br>
+                    Google formで内容を募集し、それをPythonで無限に表示する。<br>
+                    課題としていたハンバーガーメニューを実装しPythonも初めてだったので楽しかった。<br>
+                    ただし、講義において「アルゴリズムとデータ構造」と「webデザイン論」の両方で使おうとした結果どっちつかずになっており、誰からも評価されない作品と化した。供養。<br>
+                    課題はfirebaseとcss。
+                </ons-card>
+            </div>
+        </div>
+        </ons-page>
+    </ons-template>
+    
+    <ons-template id="settings.html">
+        <ons-page>
+            <ons-toolbar>
+            <div class="left">
+                <ons-toolbar-button onclick="fn.open()">
+                <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
+                </ons-toolbar-button>
+            </div>
+            <div class="center">
+                Settings
+            </div>
+            </ons-toolbar>
+            <div>
+                設定用の内容
+            </div>
+        </ons-page>
+    </ons-template>
+
+    <ons-template id="about.html">
+        <ons-page>
+        <ons-toolbar>
+            <div class="left">
+            <ons-toolbar-button onclick="fn.open()">
+            <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">
+            About
+        </div>
+        </ons-toolbar>
+        <div>
+            アプリについての説明
+        </div>
+    </ons-page>
+    </ons-template>
+</div>
+</body>
+
+<style>
+body{
+    background-image: url("illust/background.png");
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+
+.main{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: large;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(209, 87, 209);
+}
+
+.sepalate{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+.back{
+    background-image:url("illust/background.png");
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+
+.center{
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+</style>
+</html>

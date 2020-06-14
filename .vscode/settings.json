@@ -1,0 +1,8 @@
+{
+    "editor.formatOnSave": true,
+    "workbench.preferredDarkColorTheme": "Material Theme Lighter",
+    "workbench.preferredHighContrastColorTheme": "Material Theme Lighter",
+    "workbench.colorTheme": "Noctis Sereno",
+    "workbench.preferredLightColorTheme": "Material Theme Lighter",
+    "git.ignoreLimitWarning": true
+}

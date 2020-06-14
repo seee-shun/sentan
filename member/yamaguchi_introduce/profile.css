@@ -1,0 +1,36 @@
+.main {
+  border: top 1px;
+  background-color: rgba(86, 99, 99, 0.383);
+}
+.header {
+  background-color: rgba(15, 12, 53, 0.151);
+  padding: 1px 30px 70px 30px;
+}
+
+.header-logo {
+  font-size: 36px;
+  float: left;
+  padding: 20px;
+}
+li {
+  font-size: 20px;
+  list-style: none;
+  float: left;
+  padding: 15px 20px;
+}
+
+h2 {
+  color: rgb(47, 22, 189);
+  background-color: rgb(25, 173, 223);
+  font-size: x-large;
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.p {
+  font-size: 20px;
+}
+
+body {
+  margin: 0px;
+}

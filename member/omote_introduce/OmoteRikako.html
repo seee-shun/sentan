@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <style>
+      header img {
+        max-width: 100%;
+        height: auto;
+      }
+      p {
+        color: gray;
+      }
+      body {
+        text-align: center;
+        line-height: 250%;
+      }
+      body {
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+        cursor: grab;
+        font-family: "Lato", "Noto Sans JP", "ヒラギノ角ゴ ProN",
+          "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "MS　Pゴシック",
+          "MS PGothic", sans-serif;
+      }
+      li a {
+        cursor: moz-grabbing;
+        cursor: -webkit-grabbing;
+        cursor: grabbing;
+      }
+      li {
+        list-style: none;
+      }
+      body {
+        background: -moz-linear-gradient(65deg, rgb(142, 241, 233) 30%, #fff);
+        background: -webkit-linear-gradient(
+          65deg,
+          rgb(142, 241, 233) 30%,
+          #fff
+        );
+        background: linear-gradient(25deg, rgb(142, 241, 233) 30%, #fff);
+      }
+      .abc {
+        text-align: left;
+        line-height: 100%;
+      }
+      .favorite {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .favorite li img {
+        max-width: 75%;
+        height: auto;
+        border: solid 2px #fff;
+        text-align: center;
+      }
+      figure {
+        position: relative;
+        overflow: hidden;
+        /* width: 300px; */
+      }
+      figcaption {
+        position: absolute;
+        top: 0;
+        left: 65px;
+        text-align: center;
+        z-index: 2;
+        width: 75%;
+        height: 95%;
+        color: #fff;
+        background: rgba(0,0,0,0.3);
+        -webkit-transition: 0.6s;
+        transition: 0.6s;
+        opacity: 0;
+      }
+      figure:hover figcaption {
+        opacity: 1;
+      }
+
+      #page_top{
+        width: 90px;
+        height: 90px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        background: #10499e;
+        opacity: 0.6;
+        border-radius: 50%;
+      }
+      #page_top a{
+        position: relative;
+        display: block;
+        width: 90px;
+        height: 90px;
+        text-decoration: none;
+      }
+      #page_top a::before{
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        content: '\f102';
+        font-size: 25px;
+        color: #fff;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        top: -40px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        text-decoration: center;
+      }
+      #page_top a::after{
+        content: 'PAGE TOP';
+        font-size: 13px;
+        color: #fff;
+        position: absolute;
+        top: 45px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="images/0.jpg" alt="ヘッダー" />
+      <h1>自己紹介</h1>
+      <ul>
+        <li><a href="#profile">プロフィール</a></li>
+        <li><a href="#favorite">すきなもの</a></li>
+      </ul>
+    </header>
+    <br>
+    <main>
+      <div id="page_top"><a href="#"></a></div>
+      <h3><a id="profile">プロフィール</a></h3>
+      <p>
+        ＊　表　梨花子 (おもて　りかこ) <br />
+        ＊　行動情報学科2年 <br />
+        ＊　2000年10月21日生まれ <br />
+        ＊　出身地 京都府京都市<br />
+        ↑嵐山という観光地の近くです！<br>
+        ＊　ニックネーム：りっちゃん、りかこ <br /><br>
+        ＊　苦手なこと：早起き <br />
+        ＊　得意なこと：夜更かし
+      </p>
+      <br>
+
+      <h3><a id="favorite">すきなもの</a></h3>
+      <ul class="favorite">
+        <li>
+          <figure class="fes">
+            <img src="images/1.jpg" alt="フェス" />
+            <figcaption class="caption">
+              <br><br><br><h5>お金貯めて毎年フェスに行きます！</h5>
+            </figcaption>
+          </figure>
+        </li>
+        <br>
+        <li>
+          <figure class="drums">
+            <img src="images/2.jpg" alt="ドラム" />
+            <figcaption class="caption">
+              <br><br><br><h5>小学生の頃からドラムをしています。</h5>
+            </figcaption>
+          </figure>
+        </li>
+        <br>
+        <li>
+          <figure class="ramen">
+            <img src="images/3.jpg" alt="ラーメン" 　 />
+            <figcaption class="caption">
+              <br><br><br><h5>ラーメンを食べに行くのが好きです！ <br>浜松の美味しいお店を教えて頂きたいです。</h5>
+            </figcaption>
+          </figure>
+        </li>
+        <br>
+        <li>
+          <figure class="zutomayo">
+            <img src="images/4.jpg" alt="ずとまよ" />
+            <figcaption class="caption">
+              <br><br><h5>ずっと真夜中でいいのに。というバンドがすきです</h5>
+            </figcaption>
+          </figure>
+        </li>
+</main>
+<br><br>
+<footer class="abc">
+      <p><small>がんばったこと<br>
+      ・マウスの形を可愛くしました。リンクの上で変形します、、<br>
+      ・背景を2色の斜めグラデーションにしました<br>
+      ・ulの点をなくして、行間を変えて、bodyを中央揃えにしました<br>
+      ・画像の上にマウスを置くとマスクが掛かって文字が表示されるようにしました。<br>
+      ・スクロールしていくと徐々にフワッと出てくるのをやりたかったのですが、javascriptがいるみたいでした、、<br>
+      ・ページトップへ戻る固定のアイコンをつくりました<br>
+    </small></p>
+    
+    </footer>
+      <small>@Omote Rikako</small>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+header {
+  background-color: black;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container {
+  /* background-color: ; */
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  /* background-color: skyblue; */
+}
+
+.icon img {
+  /* border-radius: 20px; */
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+}
+
+.info {
+  /* background-color: tomato; */
+  margin-left: 32px;
+}
+
+.info h1 {
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.info p {
+  margin: 0;
+  margin-bottom: 16px;
+}
+.info u1 {
+  margin: 0;
+  padding: 0;
+}
+
+.comic {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comic > h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.comic > section {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 60px;
+  color: purple;
+}
