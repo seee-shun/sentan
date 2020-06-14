@@ -102,13 +102,34 @@ main {
   padding: 0.64rem 0;
   padding-top: 5rem;
 }
+.project .info {
+  padding-bottom: 3rem;
+}
 .project .info p {
   font-size: 1rem;
   padding: 1rem 12rem;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 .project .icon {
   border-radius: 15px;
+}
+.btn {
+  text-decoration: none;
+  background: #74c1f8;
+  color: #fff;
+  line-height: 44px;
+  width: 140px;
+  display: block;
+  margin: 40px auto 48px;
+  font-size: 14px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.fa {
+  margin-right: 0.5rem;
 }
 .members {
   background-color: #f2f2f3;
