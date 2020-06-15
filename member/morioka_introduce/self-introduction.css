@@ -1,0 +1,92 @@
+body{
+    background-image: url(はいけい.jpg);
+    background-color:rgba(0, 0, 0, 0.2);
+    background-blend-mode:lighten;
+    background-attachment: fixed;
+    cursor:pointer;
+}
+
+.all {
+    background-color: beige;
+    width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 85%;
+}
+
+.top{
+    position: relative;
+}
+
+.top h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+    text-shadow:3px 5px 2px aqua;
+    background-color: #faeded;
+    opacity: 70%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin:0;
+    padding:0;
+}
+
+p{
+    font-family: Meiryo;
+    text-align: center;
+    font-size: 20px;
+}
+
+h2{
+    font-family: Meiryo;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3{
+    font-family: Meiryo;
+    font-size: 25px;
+    text-align: center;
+    color: darkslategray;
+    text-shadow:2px 4px 1px #48d1cc;
+}
+
+
+.unagi{
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.food{
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.suki{
+    width: 700px;
+    height: 600px;
+    margin-left: 300px;
+    margin-right: auto;
+}
+
+.sport{
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.like h2{
+    background-color: cadetblue;
+    color: cornsilk;
+    opacity: 85%;
+}
+
+
