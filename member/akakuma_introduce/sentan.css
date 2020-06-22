@@ -1,0 +1,9 @@
+body > main > div:hover{
+    background-color: darkturquoise;
+}
+.article{
+    font-size: 50px;
+}
+#lorem::first-line{
+    color: darkslateblue;
+}

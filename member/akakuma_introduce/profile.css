@@ -1,0 +1,7 @@
+body > main > div{
+    background-color: rgb(75, 235, 141);
+}
+.article{
+    font-size: 20px;
+}
+head {background-color: rgb(75, 235, 141);}
